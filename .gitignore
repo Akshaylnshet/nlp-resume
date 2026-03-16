@@ -1,0 +1,52 @@
+# ── Node / JS ──────────────────────────────────────────────────
+**/node_modules/
+**/dist/
+**/.next/
+**/build/
+**/.vercel/
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+
+# ── Python / Backend ──────────────────────────────────────────
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+**/*.so
+**/*.egg
+**/*.egg-info/
+**/venv/
+**/env/
+**/.venv/
+**/*.log
+
+# ── Extras to exclude from this repo ──────────────────────────
+gateway/
+services/
+db/
+infra/
+.github/
+docker-compose.yml
+docker-compose.prod.yml
+package.json
+package-lock.json
+.env.example
+Dockerfile
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Misc ──────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
