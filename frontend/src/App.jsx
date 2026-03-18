@@ -126,7 +126,7 @@ function AnalyzePanel({ onResult }) {
       </button>
 
       <div className="card-footer" style={{ marginTop: '0.875rem' }}>
-        <a href="http://localhost:8000/docs" target="_blank" rel="noreferrer">
+        <a href={`${API}/docs`} target="_blank" rel="noreferrer">
           View API Docs ↗
         </a>
       </div>
